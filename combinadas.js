@@ -1,6 +1,6 @@
 let numeroPorDos = function (numero) {
     return numero * 2
-}
+};
 
 
 function esPar(numero){
@@ -10,7 +10,8 @@ function esPar(numero){
     return false;
 };
 
-function paresDuplicados(numero) {
+
+function parDuplicado(numero) {
     let array = [];
     for (let i = 0; i < numero.length; i++) {
         if (esPar(numero[i])) {
@@ -20,4 +21,5 @@ function paresDuplicados(numero) {
     return array;
 }
 
-console.log(paresDuplicados([1, 2, 3, ,4 ,5 , 6 , 7, 8, 9, 10]));
+
+console.log(parDuplicado([1, 2, 3, ,4 ,5 , 6 , 7, 8, 9, 10]));
