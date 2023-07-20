@@ -10,6 +10,7 @@ function esPar(numero){
     return false;
 };
 
+
 function parDuplicado(numero) {
     let array = [];
     for (let i = 0; i < numero.length; i++) {
@@ -19,5 +20,6 @@ function parDuplicado(numero) {
     }
     return array;
 }
+
 
 console.log(parDuplicado([1, 2, 3, ,4 ,5 , 6 , 7, 8, 9, 10]));
